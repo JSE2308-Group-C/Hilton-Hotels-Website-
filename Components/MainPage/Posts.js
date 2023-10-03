@@ -1,7 +1,9 @@
+
 import Image from 'next/image'
 import Link from 'next/link'
 
 import classes from './mainpage.module.css'
+
 
 export default function Post(){
     return(
@@ -11,6 +13,7 @@ export default function Post(){
    <h1>
    Elevated event experiences at Hilton
    </h1>
+
    <p>
    Whether you're a pro planner or new to hosting events, trust Hilton to help you create a seamless, stress-free experience that dazzles your guests at one of our thousands of hotels worldwide.
    </p>
@@ -90,6 +93,16 @@ The customized forecast is created pre-event and provides you with suggestions t
         <p>Add Links here!!</p>
     </div>
 </footer>
+
+   <h3>
+   Whether you're a pro planner or new to hosting events, trust Hilton to help you create a seamless, stress-free experience that dazzles your guests at one of our thousands of hotels worldwide.
+   </h3>
+</div>
+
+
+
+
+
 
         </div>
     )
