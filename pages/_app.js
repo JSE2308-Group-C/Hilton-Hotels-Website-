@@ -1,11 +1,9 @@
 // import '../styles/globals.css'
 
 
+
 import LandingPage from ".";
 import MainNavigation from "../Components/Layout/MainNavigation";
-
-
-
 
 // function MyApp({ Component, pageProps }) {
 //   return <Component {...pageProps} />
@@ -13,10 +11,14 @@ import MainNavigation from "../Components/Layout/MainNavigation";
 
 // export default MyApp
  export default function App(){
+
   return(
    <div>
     <MainNavigation />
    <LandingPage />
    </div>
   )
+
+  return <MainNavigation />
+
  }
