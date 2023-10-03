@@ -1,9 +1,9 @@
+import MainPage from "../Components/MainPage/MainPage";
+
 function LandingPage() {
     return (
     <div>
-        <h1>
-            Our Main Page
-        </h1>
+        <MainPage />
     </div>
     );
 }

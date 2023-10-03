@@ -1,4 +1,5 @@
 import classes from './layout.module.css';
+import Link from 'next/link'
 
 export default function MainNavigation() {
   return (
@@ -6,10 +7,10 @@ export default function MainNavigation() {
       <nav className={classes.nav}>
         <ul className={classes.navList}>
           <li>
-            <a href="/">Home</a>
+          <Link href='/'>Home</Link>
           </li>
           <li>
-            <a href="/locations">Locations</a>
+            <Link href='/locations'>Locations</Link>
           </li>
           <li>
             <a href="/offers">Offers</a>
