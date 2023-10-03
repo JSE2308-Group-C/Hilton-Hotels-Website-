@@ -1,0 +1,10 @@
+.impact {
+    display: flex;
+    gap: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
