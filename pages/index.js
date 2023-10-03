@@ -1,9 +1,11 @@
-import MainPage from "../Components/MainPage/MainPage";
+import MeetingsAndEvents from "../Components/MainPage/MeetingsAndEvents";
+
+ 
 
 function LandingPage() {
     return (
     <div>
-        <MainPage />
+        <MeetingsAndEvents />
     </div>
     );
 }

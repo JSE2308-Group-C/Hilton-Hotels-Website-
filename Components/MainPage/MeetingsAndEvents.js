@@ -1,6 +1,6 @@
 import Post from "./Posts";
 
-export default function MainPage() {
+export default function MeetingsAndEvents() {
     return(
         <div>
             <Post />

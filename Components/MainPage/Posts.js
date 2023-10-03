@@ -4,6 +4,9 @@ import Link from 'next/link'
 import classes from './mainpage.module.css'
 
 export default function Post(){
+
+    
+
     return(
         <div>
 
