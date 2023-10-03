@@ -1,0 +1,28 @@
+/* layout.module.css */
+.main {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: brown;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 80px;
+    
+  }
+  
+  .navList li {
+    margin-right: 20px;
+     
+  }
+  
+  .navList a {
+    text-decoration: none;
+    color: #333; 
+  }
+  
+  

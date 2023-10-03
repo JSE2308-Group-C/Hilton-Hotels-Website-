@@ -2,7 +2,7 @@ function LandingPage() {
     return (
     <div>
         <h1>
-            Our Home Page
+            Our Main Page
         </h1>
     </div>
     );
