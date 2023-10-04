@@ -1,19 +1,23 @@
-// import MeetingsAndEvents from "../Components/MainPage/MainPage";
 
-import Home from "../Components/MainPage/Home";
+import Head from "next/head";
+import Home from './main-page/Home'
+import { Fragment } from "react";
+import Hero from "./main-page/Hero";
 
 function LandingPage() {
   return (
-    <div>
-        <MeetingsAndEvents />
+    <Fragment>
+     <Head>
+        <title>
+            Hiltons Hotel
+        </title>
+        <meta name='description' content='Hilton Hotel' />
+     </Head>
 
-        <MainPage />
+     <Hero />
 
-        <h1>
-            Our Main Page
-        </h1>
-
-    </div>
+     <Home />
+    </Fragment>
   );
 }
 
