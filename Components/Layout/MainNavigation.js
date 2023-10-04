@@ -8,11 +8,12 @@ export default function MainNavigation() {
   
   return (
     <div className={classes.main}>
-      <nav className={classes.nav}>
-        <ul className={classes.navList}>
-          <li>
+      <li>
             <Link href="/"><Logo /></Link>
           </li>
+      <nav className={classes.nav}>
+        <ul className={classes.navList}>
+          
           <li>
             <Link href="/locations">Locations</Link>
           </li>
