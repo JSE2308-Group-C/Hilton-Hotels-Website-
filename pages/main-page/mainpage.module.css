@@ -1,0 +1,38 @@
+/* hero */
+.hero{
+display: flex;
+gap: 80px;
+padding: 2%;
+}
+
+.form{
+    padding: 1%;
+}
+
+
+.impact {
+    display: flex;
+    gap: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.honors{
+    display: flex;
+    gap: 500px;
+}
+
+.app{
+    border: 1px solid;
+}
+.join{
+    border: 1px solid;
+}
+
+.button {
+    background-color: rgb(95, 5, 76);
+}

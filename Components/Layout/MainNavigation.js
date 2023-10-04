@@ -1,41 +1,37 @@
-import classes from './layout.module.css';
+import classes from "./layout.module.css";
+import MeetingsAndEvents from "../../pages/main-page/MeetingsAndEvents";
 
-import Link from 'next/link'
-
-
+import Link from "next/link";
+import Logo from "./Logo";
 
 export default function MainNavigation() {
+  
   return (
     <div className={classes.main}>
+      <li>
+            <Link href="/"><Logo /></Link>
+          </li>
       <nav className={classes.nav}>
         <ul className={classes.navList}>
+          
           <li>
+            <Link href="/locations">Locations</Link>
+          </li>
 
-          <Link href='/'>Home</Link>
+          <li>
+            <Link href="/offers">Offers</Link>
           </li>
           <li>
-            <Link href='/locations'>Locations</Link>
-
-            <a href="/">Home</a>
+            <Link href="/main-page/MeetingsAndEvents">Meetings & Events</Link>
           </li>
           <li>
-            <a href="/locations">Locations</a>
-
+            <Link href="/credit-cards">Credit Cards</Link>
           </li>
           <li>
-            <a href="/offers">Offers</a>
+            <Link href="/hilton-getaways">Hilton Getaways</Link>
           </li>
           <li>
-            <a href="/meetings-events">Meetings & Events</a>
-          </li>
-          <li>
-            <a href="/credit-cards">Credit Cards</a>
-          </li>
-          <li>
-            <a href="/hilton-getaways">Hilton Getaways</a>
-          </li>
-          <li>
-            <a href="/hilton-grand-vacations">Hilton Grand Vacations</a>
+            <Link href="/hilton-grand-vacations">Hilton Grand Vacations</Link>
           </li>
         </ul>
       </nav>

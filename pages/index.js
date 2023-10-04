@@ -1,17 +1,23 @@
-import MainPage from "../Components/MainPage/MainPage";
+
+import Head from "next/head";
+import Home from './main-page/Home'
+import { Fragment } from "react";
+
 
 function LandingPage() {
-    return (
-    <div>
+  return (
+    <Fragment>
+     <Head>
+        <title>
+            Hiltons Hotel
+        </title>
+        <meta name='description' content='Hilton Hotel' />
+     </Head>
 
-        <MainPage />
 
-        <h1>
-            Our Main Page
-        </h1>
-
-    </div>
-    );
+     <Home />
+    </Fragment>
+  );
 }
 
 export default LandingPage;

@@ -4,6 +4,7 @@
     align-items: center; 
     justify-content: space-between;
     background-color: brown;
+padding: 1%;
   }
   
   .navList {
