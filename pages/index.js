@@ -1,4 +1,4 @@
-function LandingPage() {
+function HomePage() {
     return (
     <div>
         <h1>
@@ -8,4 +8,4 @@ function LandingPage() {
     );
 }
 
-export default LandingPage;
+export default HomePage;

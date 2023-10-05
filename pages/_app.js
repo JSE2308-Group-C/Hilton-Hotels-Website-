@@ -1,12 +1,18 @@
 // import '../styles/globals.css'
 
-import MainNavigation from "../Components/Layout/MainNavigation";
+import MainLayout from "../Components/Layout/MainLayout"
 
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />
-// }
+// import MainNavigation from "../Components/Layout/MainNavigation";
 
-// export default MyApp
- export default function App(){
-  return <MainNavigation />
- }
+function MyApp({ Component, pageProps }) {
+  return (
+    <MainLayout>
+        <Component {...pageProps} />
+    </MainLayout>
+  )
+}
+export default MyApp
+// // export default MyApp
+//  export default function App(){
+//   return <MainNavigation />
+//  }
