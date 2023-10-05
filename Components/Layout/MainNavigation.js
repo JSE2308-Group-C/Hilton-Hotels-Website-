@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import classes from './layout.module.css';
 
 export default function MainNavigation() {
@@ -6,25 +7,29 @@ export default function MainNavigation() {
       <nav className={classes.nav}>
         <ul className={classes.navList}>
           <li>
-            <a href="/">Home</a>
+            <Link  href="/" legacyBehavior>
+              <a>
+                <h1>Home</h1>
+              </a>
+            </Link>         
           </li>
           <li>
-            <a href="/locations">Locations</a>
+            <Link href='/locations'>Locations</Link>
           </li>
           <li>
-            <a href="/offers">Offers</a>
+            <Link href='/offers'>Offers</Link>
           </li>
           <li>
-            <a href="/meetings-events">Meetings & Events</a>
+            <Link href='/meetings-and-events'>Meetings & Events</Link>
           </li>
           <li>
-            <a href="/credit-cards">Credit Cards</a>
+            <Link href='/credit-cards'>Credit Cards</Link>
           </li>
           <li>
-            <a href="/hilton-getaways">Hilton Getaways</a>
+            <Link href='/hilton-getaways'>Hilton Getaways</Link>
           </li>
           <li>
-            <a href="/hilton-grand-vacations">Hilton Grand Vacations</a>
+            <Link href='/hilton-grand-vacations'>Hilton Grand Vacations</Link>
           </li>
         </ul>
       </nav>
