@@ -1,11 +1,11 @@
-function LandingPage() {
+function HomePage() {
     return (
     <div>
         <h1>
-            Our Home Page
+            Our Main Page
         </h1>
     </div>
     );
 }
 
-export default LandingPage;
+export default HomePage;
